@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to bottom,
+            rgba(140, 122, 122, 1) 0%,
+            rgba(175, 135, 124, 1) 65%,
+            rgba(175, 135, 124, 1) 100%) fixed;
+    background-size: cover;
+    background-image: url(/assets/image/arxafon.jpg);
+}
+.image {
+    width: 100%;
+    height: 60%;
+    border-radius: 3px;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    width: 29%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px rgb(196, 192, 192);
+}
+.input {
+    height: 50px;
+    border-radius: 5px;
+    width: 69%;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 0px 10px;
+    border: 1px solid rgb(196, 192, 192);
+}
+.container {
+    margin: 20px auto;
+    border: solid 1px red;
+    width: 30%;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(253, 114, 0);
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+.director, .released{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 0px;
+}
